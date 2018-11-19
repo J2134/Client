@@ -1,10 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne|Pangolin|Sedgwick+Ave+Display' );
+
+html, body {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  background-image: url('https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579__340.png') ;
+  height: 70em;
+  background-size: auto;
+  /* background-repeat: no-repeat; 
+  background-position: center center;
+  background-blend-mode: color; */
+}
+
+.navbar-brand {
+  color: #FFD700;
+  font-family:"star wars1"; 
+  font-size: 5em;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 80px;
 }
 
 .App-header {
@@ -30,3 +48,111 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* body */
+
+body {
+  background-color: white;
+  font: Belleza;
+  font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+
+
+
+/* main */
+.main {
+  background-image: url('https://2.bp.blogspot.com/-OOPXfdK77nE/WivcV1j3IKI/AAAAAAAAP5Y/o1i9w2FQx1U6ZXUUcgUOQw0pbqPISQJUgCLcBGAs/s1600/star-wars-02.gif') ;
+  background-position: center;
+  border: 3px solid rgb(204, 19, 19);
+  /* height: 100%; */
+  min-width: 100%;
+  min-height: 300%;
+  text-align: center;
+  padding: -1em;
+}
+
+h1 {
+  font-family: "star wars1";
+  color: rgb(204, 19, 19);
+}
+
+p {
+  font-family: "News Cycle", sans-serif;
+  color: #4bd5ee;
+  position: bottom: 21.5%;
+  text-align: center;
+
+}
+
+.sidebar {
+  display: flex;
+  border: 1px solid #FFD700;
+  /* text-align: center; */
+  background-color: transparent; 
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  font-family: 'Pangolin', cursive;
+  padding: .1em ;
+}
+
+ul {
+  list-style-type: 'none';
+}
+/* Sidebar */
+.sidebar-list-styling{
+  text-align: center;
+  background-color: #35A580;
+  color: rgb(233, 14, 14);
+}
+
+.sidebar-list a{
+  color: #FFD700;
+  padding: 0;
+}
+
+.sidebar-route{ 
+  flex: 1;
+}
+
+/* header */
+.header {
+  margin-top: 0.5em!important;
+  text-align: center;
+  background-color: #35A580; 
+  color: white;
+}
+
+.header a {
+  color: white;
+}
+
+.header  p {
+  margin-top: 0.8em!important;
+}
+
+@font-face {
+  font-family: 'star wars1';
+src: url('./assets/Starjhol.ttf');
+}
+
+
+@font-face {
+  font-family: 'star wars2';
+src: url('./assets/SWCrawlBody.ttf');
+}
+
